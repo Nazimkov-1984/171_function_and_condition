@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button {
+    padding: 6px;
+    border-radius: 6px;
+    &:hover {
+        cursor: pointer;
+        background-color: rgb(175, 175, 230);
+    }
+}
+button:not(:last-child) {
+    margin-right: 10px;
+}
